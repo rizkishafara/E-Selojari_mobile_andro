@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:padding="18dp"
+    android:gravity="center"
+    tools:context=".UpdateActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Update Password"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/Txt_userEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryLight"
+        android:hint="Username"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColor="#80FFFFFF"
+        android:textColorHint="#80FFFFFF" />
+    <EditText
+        android:id="@+id/Txt_passEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryLight"
+        android:hint="Password"
+        android:imeActionId="6"
+        android:imeActionLabel="Sign In"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColor="#80FFFFFF"
+        android:textColorHint="#80FFFFFF" />
+    <EditText
+        android:id="@+id/Txt_passConfirmEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPrimaryLight"
+        android:hint="Confirm Password"
+        android:imeActionId="6"
+        android:imeActionLabel="Sign In"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColor="#80FFFFFF"
+        android:textColorHint="#80FFFFFF" />
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="Update"
+        android:textColor="#FFF" />
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginTop="8dp"
+        android:text="cancel"
+        android:textColor="#FFF" />
+
+</LinearLayout>

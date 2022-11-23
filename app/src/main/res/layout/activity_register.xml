@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="18dp"
+    tools:context=".RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="Register"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/txt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryLight"
+            android:hint="Nama Lengkap"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+        <EditText
+            android:id="@+id/txt_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryLight"
+            android:hint="Alamat"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+        <EditText
+            android:id="@+id/txt_kota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryLight"
+            android:hint="Kota"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+        <EditText
+            android:id="@+id/txt_kode_pos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryLight"
+            android:hint="Kode POS"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+        <EditText
+            android:id="@+id/txt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryLight"
+            android:hint="No HP"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryLight"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+        <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryLight"
+            android:hint="Username"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryLight"
+            android:hint="Password"
+            android:maxLines="1"
+            android:password="true"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+        <EditText
+            android:id="@+id/txt_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/colorPrimaryLight"
+            android:hint="Confirm Password"
+            android:maxLines="1"
+            android:password="true"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="Register"
+            android:textColor="#FFF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="cursive"
+            android:text="OR"
+            android:textColor="#FFF" />
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="8dp"
+            android:text="Login"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+</RelativeLayout>

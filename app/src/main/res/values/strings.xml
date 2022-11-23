@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E-Selojari</string>
+    <string name="action_update">Update Password</string>
+    <string name="action_riwayat">My Order</string>
+    <string name="action_call">Call Center</string>
+    <string name="action_sms">SMS Center</string>
+    <string name="action_about">About</string>
+    <string name="action_logout">Logout</string>
+
+</resources>

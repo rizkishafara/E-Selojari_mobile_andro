@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/border2"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="No Nota"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Tanggal"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Subtot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Ongkir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=":"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=":"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_no_nota"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:id="@+id/txt_tgl_jual"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_subtot"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_ongkir"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+            android:id="@+id/txt_tot_biaya"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_status"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
